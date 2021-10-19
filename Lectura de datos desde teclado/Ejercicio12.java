@@ -6,6 +6,6 @@ public class Ejercicio12 {
     double nota1 = Double.parseDouble(System.console().readLine());
     System.out.print("¿Que nota quieres sacar en el trimestre? ");
     double notatrimestre = Double.parseDouble(System.console().readLine());
-    System.out.println("Para sacar un " + notatrimestre + "en el trimestre necesitas sacar un" + ((notatrimestre - 0.4*nota1)/0.6) );
+    System.out.println("Para sacar un " + notatrimestre + " en el trimestre necesitas sacar un" + ((notatrimestre - 0.4*nota1)/0.6) + " En el segundo examen" );
   }
 }
