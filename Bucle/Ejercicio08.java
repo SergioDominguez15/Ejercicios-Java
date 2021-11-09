@@ -5,7 +5,7 @@ public class Ejercicio08 {
     int n = Integer.parseInt(System.console().readLine());
     
     for (  int multiplo = 1 ; multiplo <=  10; multiplo += 1) {
-      System.out.println ( multiplo * n) ;
+      System.out.println ( n + " x " + multiplo + " = " + multiplo * n) ;
     }
   }
 }
